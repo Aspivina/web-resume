@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>AspiVina</title>
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/index.js"></script>
+   <script src="js/scroll.js"></script>
+   <link rel="icon" href="img/favicon.png" type="image/x-icon">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" href="css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/fontawesome.css">
+   <link href="css/all.css" rel="stylesheet">
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="css/bootstrap.min.css" <link
+      href="https://fonts.googleapis.com/css?family=Bitter|Rokkitt|Satisfy|Shadows+Into+Light&display=swap"
+      rel="stylesheet">
+</head>
+
+<body>
+   <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+         <a class="navbar-brand" href="#">
+            <img src="img/transparente.png"  height="40" alt="Aspivina Brand">
+            <small text-success>Web Developer</small>
+         </a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse " id="navbarColor01">
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item ">
+                  <a class="nav-link" href="#profile">
+                     <i class="fas fa-user-astronaut"></i>About Me <span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link " href="#education"><i class="fas fa-graduation-cap"></i>Education</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link " href="#workhistory"><i class="fas fa-briefcase"></i>Work History</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link " href="#projects"><i class="fas fa-file-code"></i>Projects</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link " href="#abilities"><i class="fas fa-tools"></i>Abilities</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+   </header>
+   <button class="bg-warning" onclick="topFunction()" id="myBtn" title="Go to top"><i
+         class="fas fa-chevron-up"></i></button>
+   <section id="profile" class=" container-fluid bg-light">
+      <div class="container text-center">
+         <h2 class="text-success">Profile</h2>
+         <h4>I always look for a solution that is as automated as possible.</h4>
+         <hr class="my-4">
+         <div class="row">
+            <div class="col-md-4 text-center">
+               <h3 class="text-success">About me</h3>
+               <p><strong>PROGRAMMER</strong> with 15+ years experience with solving engineering problems and
+                  teaching.</p>
+               <p><strong>GEOPHYSICIST</strong> with 4+ years experience in 3D seismic acquisition and QC (quality
+                  control)</p>
+               <p>Looking for a position where I can utilize my programming and engineering skills.</p>
+            </div>
+            <div class="col-md-4 mb-3">
+               <img src="img/myface.png" class="my_face img-fluid" alt="Rossi Espinoza">
+            </div>
+            <div class="col-md-4 ">
+               <h3 class="text-success">Details</h3>
+               <p><strong>Name:</strong><br> Rossi Espinoza</p>
+               <p><strong>Location:</strong><br>Mar del Plata, Argentina</p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section class="break">
+      <div class="parallax"></div>
+   </section>
+   <section id="education" class="container-fluid education">
+      <h3 class="text-success text-center mb-3">EDUCATION</h3>
+      <div class="accordion" id="myAccordionEducation">
+         <div class="card border-primary bg-light text-center">
+            <div class="card-header bg-primary" id="headingTwo">
+               <button class="btn btn-link text-info mb-0" id="btnHead2" type="button" data-toggle="collapse"
+                  onclick="enfasis(btnHead2)" data-target="#collapseTwo" aria-expanded="true"
+                  aria-controls="collapseTwo">
+                  <h4>Programming for Everybody - Python <small>(2015)</small></h4>
+               </button>
+            </div>
+            <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo"
+               data-parent="#myAccordionEducation">
+               <div class="card-body">
+                  <h5 class="card-title">University of Michigan </h5>
+                  <button title="click me!.." class="btn btn-link" data-toggle="modal" data-target="#Modal2">
+                     <h6 class="card-title">View my diploma!</h6>
+                  </button>
+                  <!-- <p>Python is a "high-level programming language, and its core design philosophy is all about
+                           code readability and a syntax which allows programmers to express concepts in a few lines
+                           of code.” -Guido van Rossum-</p> -->
+                  <p>-Online- 11 weeks / 2-4 hours per week.</p>
+                  <p><a href="https://www.coursera.org/account/accomplishments/records/CSN5XC3JCW/"
+                        target="_blank">Coursera Accomplishment</a> / <a href="https://www.coursera.org/learn/python"
+                        target="_blank">Learn Python</a></p>
+               </div>
+               <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="ModalLabel2"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                     <div class="modal-content">
+                        <div class="modal-header text-white bg-primary">
+                           <h5 class="modal-title text-center" id="ModalLabel2">Programming for Everybody (Python)</h5>
+                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                           </button>
+                        </div>
+                        <div class="modal-body">
+                           <img style="width: 80%;" src="img/python.png" alt="Programming for Everybody (Python)">
+                        </div>
+                        <div class="modal-footer bg-light">
+                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="card-footer text-muted">
+                  <h6>Python Programming / English</h6>
+               </div>
+            </div>
+         </div>
+         <div class="card border-primary bg-light text-center">
+            <div class="card-header bg-primary" id="headingOne">
+               <button class="btn btn-link text-white mb-0 collapsed" id="btnHead1" type="button" data-toggle="collapse"
+                  onclick="enfasis(btnHead1)" data-target="#collapseOne" aria-expanded="true"
+                  aria-controls="collapseOne">
+                  <h4>Think Again: How to Reason and Argue <small>(2015)</small></h4>
+               </button>
+            </div>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#myAccordionEducation">
+               <div class="card-body">
+                  <h5 class="card-title">Duke University</h5>
+                  <!-- <p>Reasoning is important. I learnt some simple but vital rules to follow
+                     in thinking about any topic at all and some common and tempting mistakes to avoid in
+                     reasoning.</p> -->
+                  <p>-Online- 12 weeks / 5-6 hours per week.</p>
+                  <button title="click me!.." class="btn btn-link" data-toggle="modal" data-target="#Modal1">
+                     <h6 class="card-title">View my diploma!</h6>
+                  </button>
+                  <p><a href="https://www.coursera.org/account/accomplishments/verify/YJYEKURD2T"
+                        target="_blank">Coursera Accomplishment</a> / <a
+                        href="https://www.coursera.org/learn/logical-fallacies" target="_blank">Think Again IV:
+                        How to Avoid Fallacies</a></p>
+               </div>
+               <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="ModalLabel1"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                     <div class="modal-content">
+                        <div class="modal-header text-white bg-primary">
+                           <h5 class="modal-title text-center" id="ModalLabel1">Think Again: How to Reason and Argue
+                           </h5>
+                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                           </button>
+                        </div>
+                        <div class="modal-body">
+                           <img style="width: 80%;" src="img/thinkagain.png" alt="Think Again: How to Reason and Argue">
+
+                        </div>
+                        <div class="modal-footer bg-light">
+                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="card-footer text-muted">
+                  <h6>Thinking / Reasoning / English</h6>
+               </div>
+            </div>
+         </div>
+         <div class="card border-primary bg-light text-center">
+            <div class="card-header bg-primary" id="headingThree">
+               <button class="btn btn-link text-white mb-0 collapsed" id="btnHead3" type="button" data-toggle="collapse"
+                  onclick="enfasis(btnHead3)" data-target="#collapseThree" aria-expanded="true"
+                  aria-controls="collapseThree">
+                  <h4>Bachelor of Science in Geophysical Engineering <small>(2011)</small></h4>
+               </button>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#myAccordionEducation">
+               <div class="card-body">
+                  <h5 class="card-title">Universidad Central de Venezuela</h5>
+                  <button title="click me!.." class="btn btn-link" data-toggle="modal" data-target="#Modal3">
+                     <h6 class="card-title">View my diploma!</h6>
+                  </button>
+                  <p>Thesis - "Digital processing of signals applying wavelets theory in seismic
+                     data"</p>
+                  <p><a href="http://190.169.101.240/cgi-win/be_alex.cgi?Documento=T041500007275/0&Nombrebd=bfiegucv&CodAsocDoc=126&t03=&t04=55&t05=png"
+                        target="_blank">Thesis PDF</a> / <a href="http://fiucv.ing.ucv.ve/" target="_blank">Engineering
+                        Faculty - UCV</a></p>
+               </div>
+               <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="ModalLabel3"
+                  aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                     <div class="modal-content">
+                        <div class="modal-header text-white bg-primary">
+                           <h5 class="modal-title text-center" id="ModalLabel3">Bachelor of Science in Geophysical
+                              Engineering</h5>
+                           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                           </button>
+                        </div>
+                        <div class="modal-body">
+                           <img style="width: 80%;" src="img/bachelor.png"
+                              alt="Bachelor of Science in Geophysical Engineering">
+                        </div>
+                        <div class="modal-footer bg-light">
+                           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="card-footer text-muted">
+                  <h6>Wavelet / Fourier / Seismic Data Processing / Matlab Programming</h6>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section id="workhistory" class="container-fluid workstory">
+      <div class="container">
+         <h3 class="text-success text-center mb-3">Work History</h3>
+         <div class="row">
+            <div class="col-md-12">
+               <div class="main-timeline7">
+                  <div class="timeline">
+                     <div class="timeline-icon"><i class="fas fa-code"></i></div>
+                     <span class="year">2017 - Current</span>
+                     <div class="timeline-content">
+                        <h5 class="title">Freelance - Web Developer</h5>
+                        <p class="description">
+                           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis felis vitae risus
+                           pulvinar tincidunt. Nam ac venenatis enim. Aenean hendrerit justo sed.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="timeline">
+                     <div class="timeline-icon"><i class="fas fa-shopping-cart"></i></div>
+                     <span class="year">2017</span>
+                     <div class="timeline-content">
+                        <h5 class="title">Web Developer</h5>
+                        <p class="description">
+                           Bolboreta Valente – Spain (remote) <br>
+                           Updated an existing website and developed new features for it. (Shopify)
+                        </p>
+                     </div>
+                  </div>
+                  <div class="timeline">
+                     <div class="timeline-icon"><i class="fas fa-code"></i></div>
+                     <span class="year">2013 - 2017</span>
+                     <div class="timeline-content">
+                        <h5 class="title">Seismic Application Designer</h5>
+                        <p class="description">
+                           Latin America (remote). <br>
+                           Software development for quality control (QC) on seismic acquisition projects (instrument
+                           tests, extracted and interpreted data from various reports).
+                        </p>
+                     </div>
+                  </div>
+                  <div class="timeline">
+                     <div class="timeline-icon"><i class="fas fa-industry"></i></div>
+                     <span class="year">2012 - 2014</span>
+                     <div class="timeline-content">
+                        <h5 class="title">Field Seismologist / Quality Control</h5>
+                        <p class="description">
+                           PDVSA Sísmica Bielovenezolana S.A. – Venezuela.<br>
+                           Coordinated, supervised, and controlled acquisition parameters and data quality of a
+                           multicomponent seismic acquisition project.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="timeline">
+                     <div class="timeline-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                     <span class="year">2007 - 2009</span>
+                     <div class="timeline-content">
+                        <h5 class="title">Programming Teacher</h5>
+                        <p class="description">
+                           Faculty of Engineering – Universidad Central de Venezuela. <br>
+                           Taught courses in programming languages, Microsoft Office, and Autocad. Motivated the
+                           students to solve engineering and programming problems.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section id="projects" class="container-fluid projects bg-primary">
+      <h3 class="text-white text-flicker-in-glow text-center mb-3">PROJECTS</h3>
+      <div class="card-deck mb-3">
+         <div class="card border-primary">
+            <div class="row no-gutters m-0">
+               <div class="col-md-7">
+                  <img src="img/WIP.png" class="card-img " alt="basic clinic website">
+               </div>
+               <div class="col-md-5 bg-light">
+                  <div class="card-header">
+                     <h5 class="card-title">Responsive Website <small>(2019)</small></h5>
+                  </div>
+                  <div class="card-body">
+                     <p class="card-text">A responsive web app programmed using HTML5, and Bootstrap.</p>
+                     <p class="card-text text-muted">Bootstrap / JavaScript / HTML5 / CSS3 / Firebase</p>
+                     <p class="card-text"><a href="https://basic-clinic.firebaseapp.com/"
+                           target="_blank">Basic-clinic</a></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="card border-primary">
+            <div class="row no-gutters m-0">
+               <div class="col-md-7 ">
+                  <img src="img/clinic.png" class="card-img" alt="...">
+               </div>
+               <div class="col-md-5 bg-light">
+                  <div class="card-header">
+                     <h5 class="card-title">Responsive Website <small>(2019)</small></h5>
+                  </div>
+                  <div class="card-body">
+                     <p class="card-text">A responsive web app programmed using HTML5, and Bootstrap.</p>
+                     <p class="card-text text-muted">Bootstrap / JavaScript / HTML5 / CSS3 / Firebase</p>
+                     <p class="card-text"><a href="https://basic-clinic.firebaseapp.com/"
+                           target="_blank">Basic-clinic</a></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="card-deck">
+         <div class="card border-primary">
+            <div class="row no-gutters m-0">
+               <div class="col-md-7  ">
+                  <img src="img/not-yts.png" class="card-img" alt="...">
+               </div>
+               <div class="col-md-5 bg-light">
+                  <div class="card-header">
+                     <h5 class="card-title">Responsive Website <small>(2019)</small></h5>
+                  </div>
+                  <div class="card-body">
+                     <p class="card-text">A responsive web app programmed using VueJS, and Bootstrap. It fetches data
+                        from an external API
+                        and allows the user to search and download results.</p>
+                     <p class="card-text text-muted">VueJS / Bootstrap / JavaScript / HTML5 / CSS3 / GitHub</p>
+                     <p class="card-text"><a href="https://aspivina.github.io/cartelera/" target="_blank">Movies</a></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="card border-primary">
+            <div class="row no-gutters m-0">
+               <div class="col-md-7 ">
+                  <img src="img/chatserver.png" class="card-img" alt="...">
+               </div>
+               <div class="col-md-5 bg-light">
+                  <div class="card-header">
+                     <h5>Web Development <small>(2017)</small></h5>
+                  </div>
+                  <div class="card-body">
+                     <p>Development of a Node.js server and client utilizing HTML5/Javascript for an online chatroom web
+                        application.</p>
+                     <p class="card-text text-muted">NodeJS / JavaScript / HTML5 / CSS3 / Heroku / GitHub</p>
+                     <p><a href="https://betaserver.herokuapp.com/" target="_blank">Chat server</a></p>
+                     <!-- <p><a href="https://github.com/Aspidane/chatserver " target="_blank">Github code</a></p> -->
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+      </div>
+
+   </section>
+   <section id="abilities" class="container-fluid abilities">
+      <div class="row">
+         <div class="container skills">
+            <h3 class="text-success text-center mb-3">SKILLS</h3>
+            <div class="row mb-3">
+               <div class="col-md-6">
+                  <ul>
+                     <li>HTML5
+                        <div class="progress">
+                           <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 100%"
+                              aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                     </li>
+                     <li>CSS3
+                        <div class="progress">
+                           <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 100%"
+                              aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                     </li>
+                     <li>Bootstrap
+                        <div class="progress">
+                           <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 100%"
+                              aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                     </li>
+                     <li>JSON
+                        <div class="progress">
+                           <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 100%"
+                              aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                     </li>
+                     <li>JavaScript
+                        <div class="progress">
+                           <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 66%"
+                              aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                     </li>
+                     <li>Git
+                        <div class="progress">
+                           <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 66%"
+                              aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                     </li>
+                     <li>Matlab
+                        <div class="progress">
+                           <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 66%"
+                              aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                     </li>
+                     <li>Delphi / Lazarus
+                        <div class="progress">
+                           <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 66%"
+                              aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-md-6">
+                  <ul>
+                     <li>AutoCad
+                        <div class="progress">
+                           <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 66%"
+                              aria-valuenow="66" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                     </li>
+                     <li>NodeJs
+                        <div class="progress">
+                           <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 33%"
+                              aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                     </li>
+                     <li>VueJs
+                        <div class="progress">
+                           <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 33%"
+                              aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                     </li>
+                     <li>C++
+                        <div class="progress">
+                           <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 33%"
+                              aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                     </li>
+                     <li>Builder C++
+                        <div class="progress">
+                           <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 33%"
+                              aria-valuenow="33" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                     </li>
+                     <li>Liquid
+                        <div class="progress">
+                           <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%"
+                              aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                     </li>
+                     <li>Java
+                        <div class="progress">
+                           <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%"
+                              aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+
+            </div>
+
+         </div>
+
+      </div>
+   </section>
+   <footer class="footer bg-primary">
+      </br>
+      <ul>
+         <li><a class="text-white" title="Facebook" href="https://www.facebook.com/aspivina" target="_blank">
+               <i class="fab fa-facebook" aria-hidden="true"></i>
+            </a>
+         </li>
+         <li><a class="text-white" title="GitHub" href="https://github.com/Aspivina" target="_blank">
+               <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+         </li>
+         <li><a class="text-white" title="LinkedIn" href="https://www.linkedin.com/in/rossiespinoza/" target="_blank">
+               <i class="fab fa-linkedin" aria-hidden="true"></i>
+            </a>
+         </li>
+      </ul>
+      <p class="text-white">©2019 by <a class="text-white" href="https://github.com/Aspivina"
+            target="_blank">AspiVina</a></p>
+
+
+   </footer>
+</body>
+
+</html>
