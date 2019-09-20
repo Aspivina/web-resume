@@ -6,6 +6,11 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <title>AspiVina</title>
+   <meta name="description"
+      content="Personal web resume for Eng. Rossi Espinoza, Geophysicist, web developer, and programmer.">
+   <meta name="keywords" content="Rossi Espinoza, resume, cv, portfolio, AspiVina, Geophysicist, web developer, 
+                                 JavaScript, bootstrap, Node.js , Vue.js, HTML5, CSS3, Delphi7, Matlab, Github, Agile, Firebase,
+                                 AutoCad, Mar del Plata, Argentina, UCV, Geophysical Engineering ">
    <meta name="theme-color" content="#2C3E50" />
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
    <script src="js/bootstrap.min.js"></script>
@@ -27,7 +32,7 @@
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
          <a class="navbar-brand" href="#">
             <img src="img/transparente.png" height="40" alt="Aspivina Brand">
-            <small text-success>Web Developer</small>
+            <small text-warning>Web Developer</small>
          </a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
             aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,23 +41,23 @@
          <div class="collapse navbar-collapse " id="navbarColor01">
             <ul class="navbar-nav ml-auto">
                <li class="nav-item ">
-                  <a class="nav-link" href="#profile">
+                  <a class="nav-link" href="#profile" data-toggle="collapse" data-target="#navbarColor01">
                      <i class="fas fa-user-astronaut"></i>About Me <span class="sr-only">(current)</span></a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link " href="#education"><i class="fas fa-graduation-cap"></i>Education</a>
+                  <a class="nav-link " href="#education" data-toggle="collapse" data-target="#navbarColor01"><i class="fas fa-graduation-cap"></i>Education</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link " href="#workhistory"><i class="fas fa-briefcase"></i>Work History</a>
+                  <a class="nav-link " href="#workhistory" data-toggle="collapse" data-target="#navbarColor01"><i class="fas fa-briefcase"></i>Work History</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link " href="#projects"><i class="fas fa-file-code"></i>Projects</a>
+                  <a class="nav-link " href="#abilities" data-toggle="collapse" data-target="#navbarColor01"><i class="fas fa-tools"></i>Abilities</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link " href="#abilities"><i class="fas fa-tools"></i>Abilities</a>
+                  <a class="nav-link " href="#projects" data-toggle="collapse" data-target="#navbarColor01"><i class="fas fa-file-code"></i>Projects</a>
                </li>
                <li class="nav-item">
-                  <a class="nav-link " href="#contact"><i class="fas fa-tools"></i>Contact</a>
+                  <a class="nav-link " href="#contact" data-toggle="collapse" data-target="#navbarColor01"><i class="fas fa-at"></i>Contact</a>
                </li>
             </ul>
          </div>
@@ -62,12 +67,12 @@
          class="fas fa-chevron-up"></i></button>
    <section id="profile" class=" container-fluid bg-light">
       <div class="container text-center">
-         <h2 class="text-success">Profile</h2>
+         <h2 class="text-warning">Profile</h2>
          <h4>I always look for a solution that is as automated as possible.</h4>
          <hr class="my-4">
          <div class="row">
             <div class="col-md-4 text-center">
-               <h3 class="text-success">About me</h3>
+               <h3 class="text-warning">About me</h3>
                <p><strong>PROGRAMMER</strong> with 15+ years experience with solving engineering problems and
                   teaching.</p>
                <p><strong>GEOPHYSICIST</strong> with 4+ years experience in 3D seismic acquisition and QC (quality
@@ -78,7 +83,7 @@
                <img src="img/myface.png" class="my_face img-fluid" alt="Rossi Espinoza">
             </div>
             <div class="col-md-4 ">
-               <h3 class="text-success">Details</h3>
+               <h3 class="text-warning">Details</h3>
                <p><strong>Name:</strong><br> Rossi Espinoza</p>
                <p><strong>Location:</strong><br>Mar del Plata, Argentina</p>
             </div>
@@ -89,7 +94,7 @@
       <div class="parallax"></div>
    </section>
    <section id="education" class="container-fluid education">
-      <h3 class="text-success text-center mb-3">Education</h3>
+      <h3 class="text-warning text-center mb-3">Education</h3>
       <div class="accordion" id="myAccordionEducation">
          <div class="card border-primary bg-light text-center">
             <div class="card-header bg-primary" id="headingTwo">
@@ -237,7 +242,7 @@
    </section>
    <section id="workhistory" class="container-fluid workstory">
       <div class="container">
-         <h3 class="text-success text-center mb-3">Work History</h3>
+         <h3 class="text-warning text-center mb-3">Work History</h3>
          <div class="row">
             <div class="col-md-12">
                <div class="main-timeline7">
@@ -249,6 +254,9 @@
                         <p class="description">
                            Developed personal and commercial web pages. Utilized modern programming technologies such as
                            VueJs to allow for more flexible, customized and responsive web applications.
+                           <br>
+                           <small>Vue.js / HTML5 / CSS3 / JavaScript / Bootstrap / Node.js / Firebase / Github /
+                              Agile</small>
                         </p>
                      </div>
                   </div>
@@ -261,6 +269,8 @@
                            Bolboreta Valente – Spain (remote - 3 months) <br>
                            Modernized and updated an existing Shopify website, optimized the website for mobile devices
                            and developed new features for customized product offers.
+                           <br>
+                           <small>HTML5 / CSS3 / JavaScript / Liquid / Shopify</small>
                         </p>
                      </div>
                   </div>
@@ -273,6 +283,8 @@
                            Latin America (remote). <br>
                            Software development for quality control on seismic acquisition projects. Worked on
                            instrument tests, extraction, and interpretation of data from various reports.
+                           <br>
+                           <small>Delphi7 / Excel</small>
                         </p>
                      </div>
                   </div>
@@ -285,6 +297,8 @@
                            PDVSA Sísmica Bielovenezolana S.A. – Venezuela.<br>
                            Coordinated, supervised, and controlled acquisition parameters and data quality of a
                            multicomponent seismic acquisition project.
+                           <br>
+                           <small>Mesa / Vista / Delphi7 / Excel</small>
                         </p>
                      </div>
                   </div>
@@ -297,6 +311,8 @@
                            Faculty of Engineering – Universidad Central de Venezuela. <br>
                            Taught courses in programming languages, Microsoft Office, and Autocad. Motivated students to
                            solve engineering and programming problems.
+                           <br>
+                           <small>Delphi7 / Pascal / C / BuilderC / Autocad / Matlab / Office</small>
                         </p>
                      </div>
                   </div>
@@ -305,8 +321,174 @@
          </div>
       </div>
    </section>
-   <section id="projects" class="container-fluid projects bg-primary">
-      <h3 class="text-white text-flicker-in-glow text-center mb-3">PROJECTS</h3>
+   <section id="abilities" class="container-fluid abilities  bg-primary">
+      <h3 class="text-white text-flicker-in-glow text-center mb-3">ABILITIES</h3>
+      <div class="row">
+         <div class="container skills">
+            <h4 class="text-white text-center mb-3">Skills</h4>
+            <div class="row mb-3 text-white">
+               <div class="col-md-6">
+                  <ul>
+                     <li class="my_stars">HTML5
+                        <span class="my_stars_span">
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                        </span>
+                     </li>
+                     <li class="my_stars">CSS3
+                        <span class="my_stars_span">
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                        </span>
+                     </li>
+                     <li class="my_stars">Bootstrap
+                        <span class="my_stars_span">
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                        </span>
+                     </li>
+                     <li class="my_stars">Git
+                        <span class="my_stars_span">
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="far fa-star text-warning empty_star"></i>
+                        </span>
+                     </li>
+                     <li class="my_stars">Matlab
+                        <span class="my_stars_span">
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="far fa-star text-warning empty_star"></i>
+                        </span>
+                     </li>
+                     <li class="my_stars">AutoCad
+                        <span class="my_stars_span">
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="far fa-star text-warning empty_star"></i>
+                        </span>
+                     </li>
+                     <li class="my_stars">Delphi / Lazarus
+                        <span class="my_stars_span">
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star-half-alt text-warning"></i>
+                           <i class="far fa-star text-warning empty_star"></i>
+                        </span>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-md-6">
+                  <ul>
+
+                     <li class="my_stars">JavaScript
+                        <span class="my_stars_span">
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star-half-alt text-warning"></i>
+                           <i class="far fa-star text-warning empty_star"></i>
+                        </span>
+                     </li>
+                     <li class="my_stars">NodeJs
+                        <span class="my_stars_span">
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star-half-alt text-warning"></i>
+                           <i class="far fa-star text-warning empty_star"></i>
+                           <i class="far fa-star text-warning empty_star"></i>
+                        </span>
+                     </li>
+                     <li class="my_stars">VueJs
+                        <span class="my_stars_span">
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star-half-alt text-warning"></i>
+                           <i class="far fa-star text-warning empty_star"></i>
+                           <i class="far fa-star text-warning empty_star"></i>
+                        </span>
+                     </li>
+                     <li class="my_stars">Python
+                        <span class="my_stars_span">
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star-half-alt text-warning"></i>
+                           <i class="far fa-star text-warning empty_star"></i>
+                           <i class="far fa-star text-warning empty_star"></i>
+                        </span>
+                     </li>
+                     <li class="my_stars">C
+                        <span class="my_stars_span">
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="far fa-star text-warning empty_star"></i>
+                           <i class="far fa-star text-warning empty_star"></i>
+                           <i class="far fa-star text-warning empty_star"></i>
+                        </span>
+                     </li>
+                     <li class="my_stars">Java
+                        <span class="my_stars_span">
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="far fa-star text-warning empty_star"></i>
+                           <i class="far fa-star text-warning empty_star"></i>
+                           <i class="far fa-star text-warning empty_star"></i>
+                        </span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <h4 class="text-white text-center mt-6 mb-3">____________________</h4>
+            <h4 class="text-white text-center mt-6 mb-3">Languages</h4>
+            <div class="row text-white">
+               <div class="col-md-6">
+                  <ul>
+                     <li class="my_stars">Spanish
+                        <span class="my_stars_span">
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                        </span>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-md-6">
+                  <ul>
+                     <li class="my_stars">English
+                        <span class="my_stars_span">
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star text-warning"></i>
+                           <i class="fas fa-star-half-alt text-warning"></i>
+                           <i class="far fa-star text-warning empty_star"></i>
+                        </span>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <section id="projects" class="container-fluid projects">
+      <h3 class="text-warning text-center">Projects</h3>
       <div class="card-deck mb-3">
          <!-- <div class="card border-primary">
             <div class="row no-gutters m-0">
@@ -326,11 +508,11 @@
                </div>
             </div>
          </div> -->
-         <div class="card border-primary bg-light text-center">
-            <img src="img/clinic2.png" class="card-img-top" alt="clinic.png">
+         <div class="card border-secondary bg-light text-center">
             <div class="card-header">
                <h5 class="card-title">Clinic Site <small>(2019)</small></h5>
             </div>
+            <img src="img/clinic2.png" class="border-primary card-img-top " alt="clinic.png">
             <div class="card-body">
                <p class="card-text">A responsive web app programmed using HTML5, and Bootstrap.</p>
                <p class="card-text text-muted">Bootstrap / JavaScript / HTML5 / CSS3 / Firebase</p>
@@ -338,11 +520,11 @@
                </p>
             </div>
          </div>
-         <div class="card border-primary bg-light text-center">
-            <img src="img/cartelera.png" class="card-img-top" alt="recentmovies.png">
+         <div class="card border-secondary bg-light text-center">
             <div class="card-header">
                <h5 class="card-title">Movie Torrent Site <small>(2019)</small></h5>
             </div>
+            <img src="img/cartelera.png" class="card-img-top border-primary" alt="recentmovies.png">
             <div class="card-body">
                <p class="card-text">A responsive web app programmed using VueJS, and Bootstrap. It fetches data
                   from an external API
@@ -351,11 +533,11 @@
                <p class="card-text"><a href="https://aspivina.github.io/cartelera/" target="_blank">Movies</a></p>
             </div>
          </div>
-         <div class="card border-primary bg-light text-center">
-            <img src="img/chat.png" class="card-img-top" alt="chatserver.png">
+         <div class="card border-secondary bg-light text-center">
             <div class="card-header">
                <h5>Chat Server <small>(2017)</small></h5>
             </div>
+            <img src="img/chat.png" class="card-img-top" alt="chatserver.png">
             <div class="card-body">
                <p>Development of a Node.js server and client utilizing HTML5/Javascript for an online chatroom web
                   application.</p>
@@ -368,177 +550,10 @@
       </div>
 
    </section>
-   <section id="abilities" class="container-fluid abilities">
-      <h3 class="text-info text-center">Abilities</h3>
-      <div class="row">
-         <div class="container skills">
-            <h4 class="text-info text-center mb-3">Skills</h4>
-            <div class="row mb-3">
-               <div class="col-md-6">
-                  <ul>
-                     <li class="my_stars">HTML5
-                        <span class="my_stars_span">
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                        </span>
-                     </li>
-                     <li class="my_stars">CSS3
-                        <span class="my_stars_span">
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                        </span>
-                     </li>
-                     <li class="my_stars">Bootstrap
-                        <span class="my_stars_span">
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                        </span>
-                     </li>
-                     <li class="my_stars">Git
-                        <span class="my_stars_span">
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-light"></i>
-                        </span>
-                     </li>
-                     <li class="my_stars">Matlab
-                        <span class="my_stars_span">
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-light"></i>
-                        </span>
-                     </li>
-                     <li class="my_stars">AutoCad
-                        <span class="my_stars_span">
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-light"></i>
-                        </span>
-                     </li>
-                  </ul>
-               </div>
-               <div class="col-md-6">
-                  <ul>
-                     <li class="my_stars">Delphi / Lazarus
-                        <span class="my_stars_span">
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star-half-alt text-success"></i>
-                           <i class="fas fa-star text-light"></i>
-                        </span>
-                     </li>
-                     <li class="my_stars">JavaScript
-                        <span class="my_stars_span">
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star-half-alt text-success"></i>
-                           <i class="fas fa-star text-light"></i>
-                        </span>
-                     </li>
-                     <li class="my_stars">NodeJs
-                        <span class="my_stars_span">
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star-half-alt text-success"></i>
-                           <i class="fas fa-star text-light"></i>
-                           <i class="fas fa-star text-light"></i>
-                        </span>
-                     </li>
-                     <li class="my_stars">VueJs
-                        <span class="my_stars_span">
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star-half-alt text-success"></i>
-                           <i class="fas fa-star text-light"></i>
-                           <i class="fas fa-star text-light"></i>
-                        </span>
-                     </li>
-                     <li class="my_stars">Python
-                        <span class="my_stars_span">
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star-half-alt text-success"></i>
-                           <i class="fas fa-star text-light"></i>
-                           <i class="fas fa-star text-light"></i>
-                        </span>
-                     </li>
-                     <li class="my_stars">C
-                        <span class="my_stars_span">
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-light"></i>
-                           <i class="fas fa-star text-light"></i>
-                           <i class="fas fa-star text-light"></i>
-                        </span>
-                     </li>
-                     <li class="my_stars">Java
-                        <span class="my_stars_span">
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-light"></i>
-                           <i class="fas fa-star text-light"></i>
-                           <i class="fas fa-star text-light"></i>
-                        </span>
-                     </li>
-                  </ul>
-               </div>
 
-            </div>
-            <h4 class="text-info text-center mt-6 mb-3">Languages</h4>
-            <div class="row">
-               <div class="col-md-6">
-                  <ul>
-                     <li class="my_stars">Spanish
-                        <span class="my_stars_span">
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                        </span>
-                     </li>
-                  </ul>
-               </div>
-               <div class="col-md-6">
-                  <ul>
-                     <li class="my_stars">English
-                        <span class="my_stars_span">
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star text-success"></i>
-                           <i class="fas fa-star-half-alt text-success"></i>
-                           <i class="fas fa-star text-light"></i>
-                        </span>
-                     </li>
-
-                  </ul>
-               </div>
-
-            </div>
-         </div>
-
-      </div>
-   </section>
-   <footer class="footer bg-primary">
+   <footer id="contact" class="footer bg-primary">
       <div class="container contactar">
-         <h3 class="text-light text-center">Contact</h3>
+         <h3 class="text-warning text-center">Contact</h3>
          <form role="form" novalidate="" class="my_form bg-light" action="https://formspree.io/aspivina@gmail.com"
             method="POST">
             <div class="row">
@@ -569,23 +584,27 @@
          </form>
       </div>
       </br>
-      <div class="my_footer id="contact">
+      <div class="my_footer  id=" contact">
          <ul>
             <!-- <li><a class="text-white" title="Facebook" href="https://www.facebook.com/aspivina" target="_blank">
                   <i class="fab fa-facebook" aria-hidden="true"></i>
                </a>
             </li> -->
-            <li><a class="text-white" title="GitHub" href="https://github.com/Aspivina" target="_blank">
+            <li><a class="text-warning" title="GitHub Main" href="https://github.com/Aspivina" target="_blank">
                   <i class="fab fa-github" aria-hidden="true"></i>
                </a>
             </li>
-            <li><a class="text-white" title="LinkedIn" href="https://www.linkedin.com/in/rossiespinoza/"
+            <li><a  class="text-warning" title="GitHub Alt" href="https://github.com/Aspidane" target="_blank">
+               <i class="fab fa-github-alt" aria-hidden="true"></i>
+            </a>
+            <li><a  class="text-warning" title="LinkedIn" href="https://www.linkedin.com/in/rossiespinoza/"
                   target="_blank">
                   <i class="fab fa-linkedin" aria-hidden="true"></i>
                </a>
             </li>
+         </li>
          </ul>
-         <p class="text-white">©2019 by <a class="text-white" href="https://github.com/Aspivina"
+         <p class="text-warning">©2019 by <a class="text-warning" href="https://github.com/Aspivina"
                target="_blank">AspiVina</a></p>
       </div>
    </footer>

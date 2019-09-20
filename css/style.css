@@ -39,6 +39,9 @@ body section{
  #myBtn:hover {
    background-color: rgba(239,236,226,.7); /* Add a dark-grey background on hover */
  }
+ #myBtn i fas {
+  padding: 0;
+}
  section{
     margin: 0 !important;
    overflow-y: scroll;
@@ -72,6 +75,9 @@ body section{
    font-family: 'Rokkitt', serif;
    /* font-size: 18px; */
 }
+.skills{
+  padding: 5vh 30vw;
+}
 .skills ul{
    margin: 0;
    padding: 0;
@@ -82,9 +88,14 @@ body section{
 .my_stars{
   display: flex;
   justify-content: space-between;
+  padding: 3px;
 }
 .my_stars:hover{
-background-color: rgba(24,188,156, 0.2);
+background-color: rgba(188, 177, 24, 0.2);
+}
+.empty_star{
+  /* margin-left: 1px; */
+  padding-right: 2px;
 }
 .my_stars:hover > .my_stars_span > i{
 
@@ -155,7 +166,7 @@ background-color: rgba(24,188,156, 0.2);
 
    text-align: center;
    color: black;
-   max-height: 500px;
+   /* max-height: 500px; */
 }
 
  .contactar input {
@@ -226,12 +237,14 @@ background-color: rgba(24,188,156, 0.2);
 
 
 .footer{
-   display: flex;
+  /* height: 50vh; */
+   /* display: flex;
    flex-direction: column;
-   justify-content: baseline;
+   justify-content: baseline;*/
    align-items: center;
 }
 .my_footer{
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -260,7 +273,7 @@ footer ul{
 }
 @media screen and (max-width: 768px){
   .container {
-      padding: 60px 20px;
+      padding: 30px 20px;
       min-width: 280px;
   }
   
@@ -278,6 +291,13 @@ footer ul{
    .form-control{
       font-size: 12px !important;
    }
+   .contactar{
+     height: 55vh;
+   }
+   .contacto-textarea{
+    width: 80%;
+  
+   }
 }
 
 /******************* Timeline Demo - 7 *****************/
@@ -293,7 +313,7 @@ footer ul{
 .main-timeline7 .year:before{content:"";display:block;width:30px;height:30px;border-radius:50%;background:rgb(44,62,80);border:5px solid #fff;box-shadow:0 0 0 4px rgb(44,62,80);margin:auto;position:absolute;bottom:-15px;left:4px}
 .main-timeline7 .year:after{content:"";border-left:10px solid #303a3b;border-top:10px solid transparent;border-bottom:10px solid transparent;position:absolute;bottom:-11px;left:50px}
 .main-timeline7 .timeline-content{padding:18px 60px 18px 40px;text-align:right;position:relative;z-index:1}
-.main-timeline7 .timeline-content:after,.main-timeline7 .timeline-content:before{content:"";width:80px;height:150px;border-radius:50%;background:#fff;position:absolute;top:-7%;right:15px;z-index:-1}
+.main-timeline7 .timeline-content:after,.main-timeline7 .timeline-content:before{content:"";width:80px;height:150px;border-radius:50%;background:transparent;position:absolute;top:-7%;right:15px;z-index:-1}
 .main-timeline7 .timeline-content:after{left:auto;right:-95px}
 .main-timeline7 .timeline:last-child .timeline-content:after,.main-timeline7 .timeline:last-child .timeline-content:before{width:0;height:0}
 .main-timeline7 .title{font-size:22px;font-weight:700;color:rgb(44,62,80);margin-top:0}
