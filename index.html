@@ -16,6 +16,10 @@
    <script src="js/bootstrap.min.js"></script>
    <script src="js/index.js"></script>
    <script src="js/scroll.js"></script>
+
+   <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
+   <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> 
+   <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
    <link rel="icon" href="img/favicon.png" type="image/x-icon">
    <link rel="stylesheet" type="text/css" href="css/style.css">
    <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -65,34 +69,48 @@
    </header>
    <button class="bg-warning" onclick="topFunction()" id="myBtn" title="Go to top"><i
          class="fas fa-chevron-up"></i></button>
-   <section id="profile" class=" container-fluid bg-light">
-      <div class="container text-center">
-         <h2 class="text-warning">Profile</h2>
-         <h4>I always look for a solution that is as automated as possible.</h4>
-         <hr class="my-4">
-         <div class="row">
-            <div class="col-md-4 text-center">
-               <h3 class="text-warning">About me</h3>
-               <p><strong>PROGRAMMER</strong> with 15+ years experience with solving engineering problems and
-                  teaching.</p>
-               <p><strong>GEOPHYSICIST</strong> with 4+ years experience in 3D seismic acquisition and QC (quality
-                  control)</p>
-               <p>Looking for a position where I can utilize my programming and engineering skills.</p>
+   <section id="profile" class=" container-fluid bg-light profileContainer">
+
+      <div class="container text-center ">
+         <div class="particlesCWrapper">
+            <div class="particlesContainer">
+               <div id="particles-js" ></div>
             </div>
-            <div class="col-md-4 mb-3">
-               <img src="img/myface.png" class="my_face img-fluid" alt="Rossi Espinoza">
-            </div>
-            <div class="col-md-4 ">
-               <h3 class="text-warning">Details</h3>
-               <p><strong>Name:</strong><br> Rossi Espinoza</p>
-               <p><strong>Location:</strong><br>Mar del Plata, Argentina</p>
-            </div>
+                  <div class="particlesContent my_profile">
+                     <h2 class="text-warning">Profile</h2>
+                     <h4>I always look for a solution that is as automated as possible.</h4>
+                     <hr class="my-4">
+                     <div class="row">
+                        <div class="col-md-4 text-center">
+                           <h3 class="text-warning">About me</h3>
+                           <p><strong>PROGRAMMER</strong> with 15+ years experience with solving engineering problems and
+                              teaching.</p>
+                           <p><strong>GEOPHYSICIST</strong> with 4+ years experience with 3D seismic acquisition and QC (quality
+                              control)</p>
+                           <p>Looking for a position where I can utilize my programming and engineering skills.</p>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                           <img src="img/myface.png" class="my_face img-fluid" alt="Rossi Espinoza">
+                        </div>
+                        <div class="col-md-4 ">
+                           <h3 class="text-warning">Details</h3>
+                           <p><strong>Name:</strong><br> Rossi Espinoza</p>
+                           <p><strong>Location:</strong><br>Mar del Plata, Argentina</p>
+                        </div>
+                     </div>
+                  </div>
+            
          </div>
       </div>
    </section>
    <section class="break">
       <div class="parallax"></div>
    </section>
+   
+   <!-- <section class="mb_break">
+   </section> -->
+
+
    <section id="education" class="container-fluid education">
       <h3 class="text-warning text-center mb-3">Education</h3>
       <div class="accordion" id="myAccordionEducation">
@@ -526,11 +544,10 @@
             </div>
             <img src="img/cartelera.png" class="card-img-top border-primary" alt="recentmovies.png">
             <div class="card-body">
-               <p class="card-text">A responsive web app programmed using VueJS, and Bootstrap. It fetches data
-                  from an external API
-                  and allows the user to search and download results.</p>
-               <p class="card-text text-muted">VueJS / Bootstrap / JavaScript / HTML5 / CSS3 / GitHub</p>
-               <p class="card-text"><a href="https://aspivina.github.io/cartelera/" target="_blank">Movies</a></p>
+               <p class="card-text">A PWA programmed using VueJS, and pure CSS. It fetches data
+                  from an external API and allows the user to search and download results.</p>
+               <p class="card-text text-muted">PWA / VueJS / JavaScript / HTML5 / CSS3 / GitHub</p>
+               <p class="card-text"><a href="https://aspivina.github.io/ez/" target="_blank">Movies</a></p>
             </div>
          </div>
          <div class="card border-secondary bg-light text-center">
@@ -608,6 +625,8 @@
                target="_blank">AspiVina</a></p>
       </div>
    </footer>
+   <script src="js/particles.js"></script>
+   <script src="js/app.js"></script>
 </body>
 
 </html>
